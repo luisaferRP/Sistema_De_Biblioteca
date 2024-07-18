@@ -7,6 +7,16 @@ namespace SistemaBiblioteca.models
 {
     public class Biblioteca
     {
+        public List<Libro> ListaLibros;
+
+        //constructor
+        public Biblioteca()
+        {
+            ListaLibros = new List<Libro>();
+
+        }
+
+        //metodos 
         
     }
 }

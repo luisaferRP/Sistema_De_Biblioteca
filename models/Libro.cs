@@ -12,11 +12,11 @@ namespace SistemaBiblioteca.models
 
 
         //Constructor
-        public Libro(string titulo,DateOnly añoPublicacion,Guid isbn,string autor, string genero,double precio)
+        public Libro(string titulo,DateOnly añoPublicacion,string autor, string genero,double precio)
         {
-            this.Titulo =titulo;
+            this.Titulo = titulo;
             this.AñoPublicacion = añoPublicacion;
-            this.ISBN = isbn;
+            this.ISBN = Guid.NewGuid();
             this.Autor = autor;
             this.Genero = genero;
             this.Precio = precio; 
