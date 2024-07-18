@@ -13,7 +13,6 @@ namespace SistemaBiblioteca.models
         public Biblioteca()
         {
             ListaLibros = new List<Libro>();
-
         }
 
         //metodos 

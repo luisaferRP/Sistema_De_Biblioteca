@@ -5,8 +5,8 @@ namespace SistemaBiblioteca.models
 {
     public class Publicacion
     {
-        protected string? Titulo;
-        protected DateOnly AñoPublicacion;
+        public string? Titulo;
+        public DateOnly AñoPublicacion;
 
     }
 }
