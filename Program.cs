@@ -17,9 +17,9 @@ do
         Bienvenido al sistema de gestion de Biblioteca
         1.Agregar un libro.
         2.Buscar libro.
-        3.Aplicar descuento a libro.
-        4.Eliminar un libro.
-        5.Ver descripcion de los libros.
+        3.Eliminar un libro.
+        4.Ver descripcion de los libros.
+        5.Aplicar descuento a libro.
         6.Libros ultimos 5 años.
         7.Libros año de publicacion.
     ");
