@@ -6,7 +6,7 @@ namespace SistemaBiblioteca.models
     public class Publicacion
     {
         public string? Titulo;
-        public DateOnly AñoPublicacion;
+        public DateTime AñoPublicacion;
 
     }
 }

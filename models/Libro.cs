@@ -12,7 +12,7 @@ namespace SistemaBiblioteca.models
 
 
         //Constructor
-        public Libro(string titulo,DateOnly añoPublicacion,string autor, string genero,double precio)
+        public Libro(string titulo,DateTime añoPublicacion,string autor, string genero,double precio)
         {
             this.Titulo = titulo;
             this.AñoPublicacion = añoPublicacion;
